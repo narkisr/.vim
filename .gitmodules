@@ -1,0 +1,3 @@
+[submodule "vim-fugitive"]
+	path = vim-fugitive
+	url = /home/ronen/.vim/vim-fugitive

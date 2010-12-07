@@ -13,3 +13,15 @@
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/TwitVim"]
+	path = bundle/TwitVim
+	url = http://github.com/vim-scripts/TwitVim.git
+[submodule "bundle/neocomplcache"]
+	path = bundle/neocomplcache
+	url = https://github.com/Shougo/neocomplcache.git
+[submodule "bundle/vim-ruby-debbuger"]
+	path = bundle/vim-ruby-debbuger
+	url = git://github.com/astashov/vim-ruby-debugger.git
+[submodule "bundle/gundo"]
+	path = bundle/gundo
+	url = https://github.com/sjl/gundo.vim.git

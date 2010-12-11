@@ -71,7 +71,7 @@ set wildignore=*.swp,*.bak,*.pyc,*.class,target/*
 let g:slimv_lisp = '"java -cp '.getcwd().'/blog-0.2-standalone.jar clojure.main"' 
 nnoremap ; :
 
-nnoremap <F5> :GundoToggle<CR>
+nnoremap <C-h> :GundoToggle<CR>
 
 " lusty jugler requires this
 set hidden

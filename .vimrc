@@ -28,6 +28,7 @@ set hlsearch      " highlight search terms
 
 " Coloring settings
 au BufNewFile,BufRead *.gant  setf groovy 
+au BufRead,BufNewFile *.viki set ft=viki 
 :highlight SignColumn guibg=darkgrey
 :highlight CursorLine guibg=lightblue ctermbg=lightgray
 
@@ -50,6 +51,7 @@ autocmd BufRead *.as set filetype=actionscript
 
 "folding settings
 set foldmethod=indent   "fold based on indent
+
 set foldnestmax=10      "deepest fold is 10 levels
 set nofoldenable        "dont fold by default
 set foldlevel=1         "this is just what i use
@@ -69,6 +71,7 @@ nmap <silent> <leader>sv :so ~/.vimrc<CR>
 set wildignore=*.swp,*.bak,*.pyc,*.class,target/*
 
 let g:slimv_lisp = '"java -cp '.getcwd().'/blog-0.2-standalone.jar clojure.main"' 
+let g:vikiNameSuffix='viki'
 nnoremap ; :
 
 nnoremap <C-h> :GundoToggle<CR>
@@ -86,3 +89,5 @@ set statusline=%f%h%m%r%=\ %l,%c%V
 function! ForceSave()
     :w !sudo tee %
 endfunction
+
+let g:vikiOpenFileWith_jpg = '!firefox %{FILE}'

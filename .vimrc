@@ -28,6 +28,7 @@ set hlsearch      " highlight search terms
 
 " Coloring settings
 au BufNewFile,BufRead *.gant  setf groovy 
+au BufNewFile,BufRead *.gradle  setf groovy 
 au BufRead,BufNewFile *.viki set ft=viki 
 :highlight SignColumn guibg=darkgrey
 :highlight CursorLine guibg=lightblue ctermbg=lightgray
@@ -70,7 +71,7 @@ nmap <silent> <leader>ev :e ~/.vimrc<CR>
 nmap <silent> <leader>sv :so ~/.vimrc<CR>
 set wildignore=*.swp,*.bak,*.pyc,*.class,target/*
 
-let g:slimv_lisp = '"java -cp '.getcwd().'/blog-0.2-standalone.jar clojure.main"' 
+let g:slimv_lisp = '"java -cp '.getcwd().'/blog-0.2.1-standalone.jar clojure.main"' 
 let g:vikiNameSuffix='viki'
 nnoremap ; :
 

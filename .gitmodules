@@ -46,3 +46,9 @@
 [submodule "bundle/trag"]
 	path = bundle/trag
 	url = https://github.com/tomtom/trag_vim.git
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = https://github.com/wincent/Command-T.git
+[submodule "bundle/zencoding-vim"]
+	path = bundle/zencoding-vim
+	url = https://github.com/mattn/zencoding-vim.git

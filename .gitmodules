@@ -52,3 +52,9 @@
 [submodule "bundle/zencoding-vim"]
 	path = bundle/zencoding-vim
 	url = https://github.com/mattn/zencoding-vim.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-ruby-refactoring"]
+	path = bundle/vim-ruby-refactoring
+	url = https://github.com/ecomba/vim-ruby-refactoring.git

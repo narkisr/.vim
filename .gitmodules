@@ -67,3 +67,15 @@
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/Color-Sampler-Pack"]
+	path = bundle/Color-Sampler-Pack
+	url = https://github.com/vim-scripts/Color-Sampler-Pack.git
+[submodule "bundle/conque"]
+	path = bundle/conque
+	url = https://github.com/rson/vim-conque.git
+[submodule "bundle/groovy-vim"]
+	path = bundle/groovy-vim
+	url = https://github.com/vim-scripts/groovy.vim--Ruley.git
+[submodule "bundle/zoomwin"]
+	path = bundle/zoomwin
+	url = https://github.com/vim-scripts/ZoomWin.git

@@ -34,9 +34,13 @@ au BufRead,BufNewFile *.viki set ft=viki
 :highlight CursorLine guibg=lightblue ctermbg=lightgray
 
 if &t_Co >= 256 || has("gui_running")
-       colorscheme mustang
+       colorscheme railscasts
 endif
 
+" gvim pasting
+nmap <C-V> "+gP
+imap <C-V> <ESC><C-V>i
+vmap <C-C> "+y 
 
 let vimclojure#HighlightBuiltins=1
 let vimclojure#ParenRainbow=1 
@@ -60,10 +64,9 @@ set foldlevel=1         "this is just what i use
 nmap <silent> <C-D> :NERDTreeToggle<CR>
 nmap <silent> <C-T> :CommandT<CR>
 let twitvim_login = "narkisr:jaThai3h" 
-
 " This enables copy and pasting from the system clipboard
-vmap <C-c> y:call system("xclip -i -selection clipboard", getreg("\""))<CR>:call system("xclip -i", getreg("\""))<CR>
-nmap <C-v> :call setreg("\"",system("xclip -o -selection clipboard"))<CR>p
+" vmap <C-c> y:call system("xclip -i -selection clipboard", getreg("\""))<CR>:call system("xclip -i", getreg("\""))<CR>
+" nmap <C-v> :call setreg("\"",system("xclip -o -selection clipboard"))<CR>p
 nmap <C-f> :call system("firefox ".getreg("\""))<CR>
 
 " Quickly edit/reload the vimrc file
@@ -92,3 +95,17 @@ function! ForceSave()
 endfunction
 
 let g:vikiOpenFileWith_jpg = '!firefox %{FILE}'
+
+" gvim options
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
+set guioptions-=r  "remove right-hand scroll bar
+
+function Goformat()
+    let regel=line(".")
+    %!/opt/go/bin/gofmt
+    call cursor(regel, 1)
+endfunction
+
+autocmd Filetype go command! Fmt call Goformat()
+

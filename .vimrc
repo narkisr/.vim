@@ -110,5 +110,9 @@ endfunction
 autocmd Filetype go command! Fmt call Goformat()
 
 " avoiding the esc key
-:imap jj <Esc>
+imap jj <Esc>
+" enabling replacing current selected text 
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+
+
 

@@ -106,6 +106,9 @@ function Goformat()
     %!/opt/go/bin/gofmt
     call cursor(regel, 1)
 endfunction
-
+  
 autocmd Filetype go command! Fmt call Goformat()
+
+" avoiding the esc key
+:imap jj <Esc>
 

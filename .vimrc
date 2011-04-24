@@ -109,6 +109,13 @@ function Goformat()
     %!/opt/go/bin/gofmt
     call cursor(regel, 1)
 endfunction
-
+  
 autocmd Filetype go command! Fmt call Goformat()
+
+" avoiding the esc key
+imap jj <Esc>
+" enabling replacing current selected text 
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+
+
 

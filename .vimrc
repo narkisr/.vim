@@ -33,8 +33,11 @@ au BufRead,BufNewFile *.viki set ft=viki
 :highlight SignColumn guibg=darkgrey
 :highlight CursorLine guibg=lightblue ctermbg=lightgray
 
-if &t_Co >= 256 || has("gui_running")
-       colorscheme railscasts
+if has("gui_running")
+    set background=dark
+    colorscheme solarized
+elseif &t_Co >= 256 
+    colorscheme railscasts
 endif
 
 " gvim pasting

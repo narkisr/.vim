@@ -29,8 +29,8 @@ set hlsearch      " highlight search terms
 au BufNewFile,BufRead *.gant  setf groovy 
 au BufNewFile,BufRead *.gradle  setf groovy 
 au BufRead,BufNewFile *.viki set ft=viki 
-:highlight SignColumn guibg=darkgrey
-:highlight CursorLine guibg=lightblue ctermbg=lightgray
+highlight SignColumn guibg=darkgrey
+highlight CursorLine guibg=lightblue ctermbg=lightgray
 
 if has("gui_running")
     set background=dark
@@ -103,7 +103,7 @@ set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
 
-function Goformat()
+function! Goformat()
     let regel=line(".")
     %!/opt/go/bin/gofmt
     call cursor(regel, 1)
@@ -116,5 +116,6 @@ imap jj <Esc>
 " enabling replacing current selected text 
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
-
+" save upon focus lost
+au FocusLost * :wa
 

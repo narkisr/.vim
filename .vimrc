@@ -65,7 +65,6 @@ set foldlevel=1         "this is just what i use
 
 nmap <silent> <C-D> :NERDTreeToggle<CR>
 nmap <silent> <C-T> :CommandT<CR>
-let twitvim_login = "narkisr:jaThai3h" 
 " This enables copy and pasting from the system clipboard
 " vmap <C-c> y:call system("xclip -i -selection clipboard", getreg("\""))<CR>:call system("xclip -i", getreg("\""))<CR>
 " nmap <C-v> :call setreg("\"",system("xclip -o -selection clipboard"))<CR>p
@@ -115,7 +114,6 @@ autocmd Filetype go command! Fmt call Goformat()
 imap jj <Esc>
 " enabling replacing current selected text 
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
-
 " save upon focus lost
 au FocusLost * :wa
 

@@ -28,21 +28,12 @@
 [submodule "bundle/vimroom"]
 	path = bundle/vimroom
 	url = git://github.com/mikewest/vimroom.git
-[submodule "bundle/wikia-csv"]
-	path = bundle/wikia-csv
-	url = git://github.com/dsummersl/wikia-csv.git
 [submodule "bundle/ack-vim"]
 	path = bundle/ack-vim
 	url = git://github.com/mileszs/ack.vim.git
-[submodule "bundle/viki_vim"]
-	path = bundle/viki_vim
-	url = git://github.com/tomtom/viki_vim.git
 [submodule "bundle/tlib_vim"]
 	path = bundle/tlib_vim
 	url = git://github.com/tomtom/tlib_vim.git
-[submodule "bundle/vikitasks"]
-	path = bundle/vikitasks
-	url = git://github.com/tomtom/vikitasks_vim.git
 [submodule "bundle/trag"]
 	path = bundle/trag
 	url = git://github.com/tomtom/trag_vim.git

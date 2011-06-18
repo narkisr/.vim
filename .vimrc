@@ -4,11 +4,11 @@ filetype off
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
-so ~/.vim/.vimrc_modules/camel_case.vim
-so ~/.vim/.vimrc_modules/coloring.vim
-so ~/.vim/.vimrc_modules/gvim.vim
-so ~/.vim/.vimrc_modules/folding.vim
-so ~/.vim/.vimrc_modules/key-bindings.vim
+for module in ['camel_case','coloring','gvim','folding','key-bindings','backup','auto']
+ exec 'so' '~/.vim/.vimrc_modules/'.module.'.vim'
+endfor
+
+so ~/.vim/bundle/snipmate/snippets/support_functions.vim
  
 syntax on
 filetype plugin indent on
@@ -37,21 +37,12 @@ set incsearch
 " actionscript 
 autocmd BufRead *.as set filetype=actionscript
 
-" This enables copy and pasting from the system clipboard
-" vmap <C-c> y:call system("xclip -i -selection clipboard", getreg("\""))<CR>:call system("xclip -i", getreg("\""))<CR>
-" nmap <C-v> :call setreg("\"",system("xclip -o -selection clipboard"))<CR>p
-
 set wildignore=*.swp,*.bak,*.pyc,*.class,target/*
 
 let g:slimv_lisp = '"java -cp '.getcwd().'/blog-0.2.1-standalone.jar clojure.main"' 
 
-
 " lusty jugler requires this
 set hidden
-" reload vimrc post :w
-autocmd! bufwritepost .vimrc source %
-" enable neocomplete on startup
-"let g:neocomplcache_enable_at_startup = 1 
 set statusline=%f%h%m%r%=\ %l,%c%V 
 
 " force save on root files
@@ -59,15 +50,6 @@ function! ForceSave()
     :w !sudo tee %
 endfunction
 
+ 
 
-function! Goformat()
-    let regel=line(".")
-    %!/opt/go/bin/gofmt
-    call cursor(regel, 1)
-endfunction
-  
-autocmd Filetype go command! Fmt call Goformat()
-
-" save upon focus lost
-au FocusLost * :wa
 

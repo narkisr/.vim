@@ -97,9 +97,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar
-[submodule "snippets/scrooloose"]
-	path = snippets/scrooloose
-	url = https://github.com/scrooloose/snipmate-snippets.git
 [submodule "bundle/vim-session"]
 	path = bundle/vim-session
 	url = https://github.com/xolox/vim-session.git

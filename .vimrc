@@ -4,7 +4,7 @@ filetype off
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
-for module in ['camel_case','coloring','gvim','folding','key-bindings','backup','auto']
+for module in ['camel_case','coloring','gvim','folding','key-bindings','backup','auto','syntastic']
  exec 'so' '~/.vim/.vimrc_modules/'.module.'.vim'
 endfor
 

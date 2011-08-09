@@ -39,7 +39,9 @@ autocmd BufRead *.as set filetype=actionscript
 
 set wildignore=*.swp,*.bak,*.pyc,*.class,target/*
 
-let g:slimv_lisp = '"java -cp '.getcwd().'/blog-0.2.1-standalone.jar clojure.main"' 
+" let g:slimv_lisp = '"java -cp '.getcwd().'/blog-0.2.1-standalone.jar clojure.main"' 
+" let g:slimv_lisp = '"lein repl"' 
+let g:slimv_client = 'python ~/.vim/bundle/slimv/ftplugin/slimv.py  -r "xterm -T Slimv -e @p @s -l \"cake repl\" -s"'
 
 " lusty jugler requires this
 set hidden

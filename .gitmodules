@@ -106,3 +106,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-bufonly"]
+	path = bundle/vim-bufonly
+	url = https://github.com/duff/vim-bufonly.git

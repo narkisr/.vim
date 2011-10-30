@@ -109,3 +109,6 @@
 [submodule "bundle/vim-bufonly"]
 	path = bundle/vim-bufonly
 	url = https://github.com/duff/vim-bufonly.git
+[submodule "bundle/slimv"]
+	path = bundle/slimv
+	url = https://github.com/vim-scripts/slimv.vim.git

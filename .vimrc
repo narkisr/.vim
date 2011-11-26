@@ -1,21 +1,16 @@
 
-filetype off
-
-call pathogen#helptags()
-call pathogen#runtime_append_all_bundles()
-
-for module in ['camel_case','coloring','gvim','folding','key-bindings','backup','auto','syntastic']
- exec 'so' '~/.vim/.vimrc_modules/'.module.'.vim'
-endfor
-
-so ~/.vim/bundle/snipmate/snippets/support_functions.vim
- 
 syntax on
 filetype plugin indent on
+call pathogen#infect()
+
+for module in ['camel_case','coloring','gvim','folding','key-bindings','backup','auto','syntastic']
+  exec 'so' '~/.vim/.vimrc_modules/'.module.'.vim'
+endfor
+ 
+so ~/.vim/bundle/snipmate/snippets/support_functions.vim
+ 
 set tabstop=6
 set smarttab
-" set autoindent
-" set expandtab
 set laststatus=2
 
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
@@ -39,11 +34,7 @@ autocmd BufRead *.as set filetype=actionscript
 
 set wildignore=*.swp,*.bak,*.pyc,*.class,target/*
 
-" let g:slimv_lisp = '"java -cp '.getcwd().'/blog-0.2.1-standalone.jar clojure.main"' 
 let g:slimv_swank_clojure = '! xterm -e lein swank &'"
-" let g:slimv_lisp = '"lein repl"' 
-" let g:slimv_client = 'python ~/.vim/bundle/slimv/ftplugin/slimv.py  -r "xterm -T Slimv -e @p @s -l \"cake repl\" -s"'
-" let g:slimv_client = 'python ~/.vim/bundle/slimv/ftplugin/slimv.py  -r "xterm -T Slimv -e @p @s -l \"lein repl\" -s"'
 
 " lusty jugler requires this
 set hidden
@@ -53,3 +44,4 @@ set statusline=%f%h%m%r%=\ %l,%c%V
 function! ForceSave()
     :w !sudo tee %
 endfunction
+

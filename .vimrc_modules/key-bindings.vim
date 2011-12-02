@@ -18,3 +18,4 @@ imap jj <Esc>
 " enabling replacing current selected text 
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
+

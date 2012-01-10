@@ -115,3 +115,6 @@
 [submodule "bundle/vim-task"]
 	path = bundle/vim-task
 	url = https://github.com/weierophinney/vim-task.git
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = https://github.com/kien/ctrlp.vim.git

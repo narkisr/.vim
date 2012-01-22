@@ -118,3 +118,6 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/vim-pasta"]
+	path = bundle/vim-pasta
+	url = git://github.com/sickill/vim-pasta.git

@@ -13,9 +13,6 @@
 [submodule "bundle/neocomplcache"]
 	path = bundle/neocomplcache
 	url = git://github.com/Shougo/neocomplcache.git
-[submodule "bundle/vim-ruby-debbuger"]
-	path = bundle/vim-ruby-debbuger
-	url = git://github.com/astashov/vim-ruby-debugger.git
 [submodule "bundle/gundo"]
 	path = bundle/gundo
 	url = git://github.com/sjl/gundo.vim.git

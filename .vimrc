@@ -3,7 +3,7 @@ syntax on
 filetype plugin indent on
 call pathogen#infect()
 
-for module in ['camel_case','coloring','gvim','folding','key-bindings','backup','auto','syntastic']
+for module in ['camel_case','coloring','gvim','folding','key-bindings','backup','auto','syntastic','vimclojure']
   exec 'so' '~/.vim/.vimrc_modules/'.module.'.vim'
 endfor
  

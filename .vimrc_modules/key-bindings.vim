@@ -18,4 +18,8 @@ imap jj <Esc>
 " enabling replacing current selected text 
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
-
+" easy split navigation http://tinyurl.com/6pj4m4z  
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l

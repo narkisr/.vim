@@ -8,7 +8,7 @@ for module in ['camel_case','coloring','gvim','folding','key-bindings','backup',
 endfor
  
 so ~/.vim/bundle/snipmate/snippets/support_functions.vim
- 
+
 set tabstop=6
 set smarttab
 set laststatus=2
@@ -44,4 +44,5 @@ set statusline=%f%h%m%r%=\ %l,%c%V
 function! ForceSave()
     :w !sudo tee %
 endfunction
+
 

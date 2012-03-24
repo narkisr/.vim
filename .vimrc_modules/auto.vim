@@ -1,6 +1,7 @@
 
 " save upon focus lost
 au FocusLost * :wa
+au FocusLost * call feedkeys("\<C-\>\<C-n>") " Return to normal mode on FocustLost
 
 
 function! Goformat()
@@ -14,3 +15,5 @@ autocmd Filetype go command! Fmt call Goformat()
 
 " reload vimrc post :w
 autocmd! bufwritepost .vimrc source %
+
+

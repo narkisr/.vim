@@ -93,7 +93,7 @@
 	url = https://github.com/xolox/vim-session.git
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
-	url = git@github.com:narkisr/snipmate-snippets.git
+	url = git://github.com/narkisr/snipmate-snippets.git
 [submodule "bundle/vim-align"]
 	path = bundle/vim-align
 	url = https://github.com/tsaleh/vim-align.git

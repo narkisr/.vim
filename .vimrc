@@ -45,4 +45,4 @@ function! ForceSave()
     :w !sudo tee %
 endfunction
 
-
+let g:Powerline_symbols = 'fancy'

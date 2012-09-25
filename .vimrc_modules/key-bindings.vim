@@ -23,3 +23,6 @@ noremap <C-h> <C-w>h
 noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
+
+" navigate to current folder in nerdtree
+map <leader>r :NERDTreeFind<cr>

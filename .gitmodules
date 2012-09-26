@@ -124,3 +124,6 @@
 [submodule "bundle/vim-powerline"]
 	path = bundle/vim-powerline
 	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "bundle/auto-tag"]
+	path = bundle/auto-tag
+	url = git://github.com/vim-scripts/AutoTag.git

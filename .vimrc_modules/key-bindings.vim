@@ -26,3 +26,4 @@ noremap <C-l> <C-w>l
 
 " navigate to current folder in nerdtree
 map <leader>r :NERDTreeFind<cr>
+nmap <F8> :TagbarToggle<CR>

@@ -127,3 +127,6 @@
 [submodule "bundle/auto-tag"]
 	path = bundle/auto-tag
 	url = git://github.com/vim-scripts/AutoTag.git
+[submodule "bundle/vim-golang"]
+	path = bundle/vim-golang
+	url = git://github.com/jnwhiteh/vim-golang.git

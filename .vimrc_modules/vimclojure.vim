@@ -7,3 +7,5 @@ let vimclojure#DynamicHighlighting=1
 let vimclojure#ParenRainbow=1
 let vimclojure#WantNailgun = 1
 let vimclojure#NailgunClient = $HOME . "/.vim/lib/vimclojure-nailgun-client/ng"
+
+autocmd BufRead,BufNewFile *.cljs setlocal filetype=clojure

@@ -9,8 +9,8 @@ if has("gui_running")
     set background=dark
     colorscheme solarized
 elseif &t_Co >= 256 
-    colorscheme solarized
-    " colorscheme railscasts
+    " colorscheme solarized
+    colorscheme railscasts
 endif
 
 

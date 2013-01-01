@@ -127,3 +127,6 @@
 [submodule "bundle/puppet"]
 	path = bundle/puppet
 	url = git://github.com/narkisr/vim-puppet.git
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = git://github.com/narkisr/vim-ruby.git

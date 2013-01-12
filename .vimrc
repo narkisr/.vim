@@ -3,11 +3,12 @@ syntax on
 filetype plugin indent on
 call pathogen#infect()
 
-for module in ['camel_case','coloring','gvim','folding','key-bindings','backup','auto','syntastic','vimclojure']
+for module in ['camel_case','coloring','gvim','folding','key-bindings','backup','auto','syntastic','vimclojure','html_indent']
   exec 'so' '~/.vim/.vimrc_modules/'.module.'.vim'
 endfor
  
 so ~/.vim/bundle/snipmate/snippets/support_functions.vim
+
 
 set tabstop=6
 set smarttab

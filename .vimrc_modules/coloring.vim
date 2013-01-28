@@ -4,6 +4,7 @@ au BufNewFile,BufRead *.gradle  setf groovy
 au BufRead,BufNewFile *.viki set ft=viki 
 highlight SignColumn guibg=darkgrey
 highlight CursorLine guibg=lightblue ctermbg=lightgray
+so ~/.vim/syntax/srt.vim
 
 if has("gui_running")
     set background=dark

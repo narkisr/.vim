@@ -2,6 +2,7 @@
 au BufNewFile,BufRead *.gant  setf groovy 
 au BufNewFile,BufRead *.gradle  setf groovy 
 au BufRead,BufNewFile *.viki set ft=viki 
+au BufRead,BufNewFile *.edn  set ft=clojure
 highlight SignColumn guibg=darkgrey
 highlight CursorLine guibg=lightblue ctermbg=lightgray
 so ~/.vim/syntax/srt.vim

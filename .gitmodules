@@ -43,18 +43,12 @@
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
-[submodule "bundle/conque"]
-	path = bundle/conque
-	url = git://github.com/rson/vim-conque.git
 [submodule "bundle/groovy-vim"]
 	path = bundle/groovy-vim
 	url = git://github.com/vim-scripts/groovy.vim--Ruley.git
 [submodule "bundle/zoomwin"]
 	path = bundle/zoomwin
 	url = git://github.com/vim-scripts/ZoomWin.git
-[submodule "bundle/conque-term"]
-	path = bundle/conque-term
-	url = git://github.com/rosenfeld/conque-term.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = git://github.com/plasticboy/vim-markdown

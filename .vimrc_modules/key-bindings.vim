@@ -10,7 +10,7 @@ nmap <C-f> :call system("firefox ".getreg("\""))<CR>
 nmap <silent> <leader>ev :e ~/.vimrc<CR>
 nmap <silent> <leader>sv :so ~/.vimrc<CR>
 
-nnoremap <C-h> :GundoToggle<CR>
+nmap <silent> <C-Z> :GundoToggle<CR>
 map <leader>f :Ack<Space>
 
 " avoiding the esc key

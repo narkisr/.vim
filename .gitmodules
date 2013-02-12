@@ -4,9 +4,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = http://github.com/scrooloose/nerdtree.git
-[submodule "bundle/TwitVim"]
-	path = bundle/TwitVim
-	url = http://github.com/vim-scripts/TwitVim.git
 [submodule "bundle/neocomplcache"]
 	path = bundle/neocomplcache
 	url = git://github.com/Shougo/neocomplcache.git

@@ -29,9 +29,14 @@ map <leader>r :NERDTreeFind<cr>
 nmap <F8> :TagbarToggle<CR>
 
 " fugitive mappings
+nnoremap <Leader>gs :Gstatus<cr>
+nnoremap <Leader>gc :Gcommit<cr>
+"vimdiff current vs git head (fugitive extension)
+nnoremap <Leader>gd :Gdiff<cr> 
+"switch back to current file and closes fugitive buffer
+nnoremap <Leader>gD :diffoff!<cr><c-w>h:bd<cr>
+nnoremap <Leader>gp :Git push origin master<cr>
 
-map <leader>gs :Gstatus<cr>
-map <leader>gc :Gcommit<cr>
 
 " zencoding expansion see http://tinyurl.com/a4bn8bg   
 let g:user_zen_leader_key = '<C-Z>'

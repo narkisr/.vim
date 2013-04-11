@@ -28,6 +28,11 @@ noremap <C-l> <C-w>l
 map <leader>r :NERDTreeFind<cr>
 nmap <F8> :TagbarToggle<CR>
 
+" fugitive mappings
+
+map <leader>gs :Gstatus<cr>
+map <leader>gc :Gcommit<cr>
+
 " zencoding expansion see http://tinyurl.com/a4bn8bg   
 let g:user_zen_leader_key = '<C-Z>'
 autocmd FileType html,xhtml,tt2,tt2html,css imap <buffer> <Tab> <C-Z>, | imap <buffer> <C-N> <C-Z>n

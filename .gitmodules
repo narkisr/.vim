@@ -139,3 +139,9 @@
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/vim-elixir"]
+	path = bundle/vim-elixir
+	url = git://github.com/elixir-lang/vim-elixir.git
+[submodule "bundle/elixir-snippets"]
+	path = bundle/elixir-snippets
+	url = git://github.com/carlosgaldino/elixir-snippets.git

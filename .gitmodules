@@ -142,3 +142,9 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = git@github.com:bling/vim-airline.git
+[submodule "bundle/emmet-vim"]
+	path = bundle/emmet-vim
+	url = git@github.com:mattn/emmet-vim.git
+[submodule "bundle/mustache"]
+	path = bundle/mustache
+	url = git@github.com:juvenn/mustache.vim.git

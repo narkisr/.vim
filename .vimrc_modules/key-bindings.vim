@@ -39,5 +39,11 @@ nnoremap <Leader>gp :Git push origin master<cr>
 
 
 " zencoding expansion see http://tinyurl.com/a4bn8bg   
-let g:user_zen_leader_key = '<C-Z>'
+let g:user_emmet_leader_key = '<C-Z>'
+
+let g:user_emmet_settings = {
+  \  'haml' : {
+  \    'extends' : 'html',
+  \  },
+  \}
 autocmd FileType html,xhtml,tt2,tt2html,css imap <buffer> <Tab> <C-Z>, | imap <buffer> <C-N> <C-Z>n

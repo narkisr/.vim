@@ -22,9 +22,6 @@
 [submodule "bundle/command-t"]
 	path = bundle/command-t
 	url = git://github.com/wincent/Command-T.git
-[submodule "bundle/zencoding-vim"]
-	path = bundle/zencoding-vim
-	url = git://github.com/mattn/zencoding-vim.git
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git

@@ -54,43 +54,43 @@
 	url = git://github.com/tomtom/tcomment_vim.git
 [submodule "bundle/lusty"]
 	path = bundle/lusty
-	url = https://github.com/sjbach/lusty.git
+	url = git://github.com/sjbach/lusty.git
 [submodule "bundle/vim-cucumber"]
 	path = bundle/vim-cucumber
-	url = https://github.com/tpope/vim-cucumber.git
+	url = git://github.com/tpope/vim-cucumber.git
 [submodule "bundle/CamelCaseMotion"]
 	path = bundle/CamelCaseMotion
-	url = https://github.com/bkad/CamelCaseMotion.git
+	url = git://github.com/bkad/CamelCaseMotion.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar
 [submodule "bundle/vim-session"]
 	path = bundle/vim-session
-	url = https://github.com/xolox/vim-session.git
+	url = git://github.com/xolox/vim-session.git
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
 	url = git://github.com/narkisr/snipmate-snippets.git
 [submodule "bundle/vim-align"]
 	path = bundle/vim-align
-	url = https://github.com/tsaleh/vim-align.git
+	url = git://github.com/tsaleh/vim-align.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
+	url = git://github.com/scrooloose/syntastic.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
-	url = https://github.com/godlygeek/tabular.git
+	url = git://github.com/godlygeek/tabular.git
 [submodule "bundle/vim-bufonly"]
 	path = bundle/vim-bufonly
-	url = https://github.com/duff/vim-bufonly.git
+	url = git://github.com/duff/vim-bufonly.git
 [submodule "bundle/slimv"]
 	path = bundle/slimv
-	url = https://github.com/vim-scripts/slimv.vim.git
+	url = git://github.com/vim-scripts/slimv.vim.git
 [submodule "bundle/vim-task"]
 	path = bundle/vim-task
-	url = https://github.com/weierophinney/vim-task.git
+	url = git://github.com/weierophinney/vim-task.git
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
-	url = https://github.com/kien/ctrlp.vim.git
+	url = git://github.com/kien/ctrlp.vim.git
 [submodule "bundle/vim-pasta"]
 	path = bundle/vim-pasta
 	url = git://github.com/sickill/vim-pasta.git

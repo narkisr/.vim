@@ -124,9 +124,6 @@
 [submodule "bundle/gitv"]
 	path = bundle/gitv
 	url = git://github.com/gregsexton/gitv.git
-[submodule "bundle/vim-redl"]
-	path = bundle/vim-redl
-	url = git://github.com/dgrnbrg/vim-redl.git
 [submodule "bundle/vim-fireplace"]
 	path = bundle/vim-fireplace
 	url = git://github.com/tpope/vim-fireplace.git
@@ -151,3 +148,6 @@
 [submodule "bundle/vim-misc"]
 	path = bundle/vim-misc
 	url = git://github.com/xolox/vim-misc.git
+[submodule "bundle/vim-slamhound"]
+	path = bundle/vim-slamhound
+	url = git@github.com:guns/vim-slamhound.git

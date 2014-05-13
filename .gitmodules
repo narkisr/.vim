@@ -150,4 +150,4 @@
 	url = git://github.com/xolox/vim-misc.git
 [submodule "bundle/vim-exchange"]
 	path = bundle/vim-exchange
-	url = git@github.com:tommcdo/vim-exchange.git
+	url = git://github.com/ommcdo/vim-exchange.git

@@ -2,6 +2,8 @@
 
 A highly tested and fine tuned VIM configuration.
 
+[![Build Status](https://travis-ci.org/narkisr/.vim.png)](https://travis-ci.org/narkisr/.vim)
+
 # Copyright and license
 
 Copyright [2014] [Ronen Narkis]

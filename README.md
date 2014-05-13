@@ -1,6 +1,6 @@
 # Intro
 
-A higly tested and fine tuned VIM configuration.
+A highly tested and fine tuned VIM configuration.
 
 # Copyright and license
 

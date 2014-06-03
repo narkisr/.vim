@@ -151,3 +151,9 @@
 [submodule "bundle/vim-slamhound"]
 	path = bundle/vim-slamhound
 	url = git@github.com:guns/vim-slamhound.git
+[submodule "bundle/vim-exchange"]
+	path = bundle/vim-exchange
+	url = git@github.com:tommcdo/vim-exchange.git
+[submodule "bundle/stringify.git"]
+	path = bundle/stringify.git
+	url = git@github.com:29decibel/vim-stringify.git

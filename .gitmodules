@@ -157,3 +157,6 @@
 [submodule "bundle/stringify.git"]
 	path = bundle/stringify.git
 	url = git://github.com/29decibel/vim-stringify.git
+[submodule "bundle/vim-chef"]
+	path = bundle/vim-chef
+	url = git://github.com/narkisr/vim-chef.git

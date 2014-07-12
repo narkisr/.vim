@@ -16,4 +16,5 @@ autocmd Filetype go command! Fmt call Goformat()
 " reload vimrc post :w
 autocmd! bufwritepost .vimrc source %
 
+autocmd FileType ruby,eruby set filetype=ruby.eruby.chef
 

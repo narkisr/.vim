@@ -159,4 +159,4 @@
 	url = git://github.com/narkisr/vim-chef.git
 [submodule "bundle/vim-chef-detect"]
 	path = bundle/vim-chef-detect
-	url = git://github.com/dougireton/vim-chef.git
+	url = git://github.com/narkisr/vim-chef-detect.git

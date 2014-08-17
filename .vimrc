@@ -47,3 +47,5 @@ function! ForceSave()
 endfunction
 
 let g:Powerline_symbols = 'fancy'
+
+let g:session_autoload = 'no'

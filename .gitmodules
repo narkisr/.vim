@@ -103,9 +103,6 @@
 [submodule "bundle/vim-endwise"]
 	path = bundle/vim-endwise
 	url = git://github.com/tpope/vim-endwise.git
-[submodule "bundle/hammer"]
-	path = bundle/hammer
-	url = git://github.com/matthias-guenther/hammer.vim.git
 [submodule "bundle/vim-classpath"]
 	path = bundle/vim-classpath
 	url = git://github.com/tpope/vim-classpath.git

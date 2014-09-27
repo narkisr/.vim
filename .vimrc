@@ -32,8 +32,6 @@ let vimclojure#ParenRainbow=1
 " Search Options
 set incsearch
 
-" actionscript 
-autocmd BufRead *.as set filetype=actionscript
 
 set wildignore=*.swp,*.bak,*.pyc,*.class,target/*
 
@@ -49,3 +47,5 @@ function! ForceSave()
 endfunction
 
 let g:Powerline_symbols = 'fancy'
+
+let g:session_autoload = 'no'

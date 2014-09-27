@@ -61,9 +61,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar
-[submodule "bundle/vim-session"]
-	path = bundle/vim-session
-	url = git://github.com/xolox/vim-session.git
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
 	url = git://github.com/narkisr/snipmate-snippets.git

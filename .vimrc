@@ -49,3 +49,6 @@ endfunction
 let g:Powerline_symbols = 'fancy'
 
 let g:session_autoload = 'no'
+
+inoremap <silent> <buffer> <C-M-CR> <ESC>:call Toggle_task_status()<CR>i
+noremap <silent> <buffer> <C-M-CR> :call Toggle_task_status()<CR>

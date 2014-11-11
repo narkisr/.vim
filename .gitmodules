@@ -25,9 +25,6 @@
 [submodule "bundle/vim-ruby-refactoring"]
 	path = bundle/vim-ruby-refactoring
 	url = git://github.com/ecomba/vim-ruby-refactoring.git
-[submodule "bundle/vim-matchit"]
-	path = bundle/vim-matchit
-	url = git://github.com/edsono/vim-matchit.git
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git://github.com/msanders/snipmate.vim.git
@@ -70,9 +67,6 @@
 [submodule "bundle/slimv"]
 	path = bundle/slimv
 	url = git://github.com/vim-scripts/slimv.vim.git
-[submodule "bundle/vim-task"]
-	path = bundle/vim-task
-	url = git://github.com/weierophinney/vim-task.git
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
@@ -124,9 +118,6 @@
 [submodule "bundle/vim-misc"]
 	path = bundle/vim-misc
 	url = git://github.com/xolox/vim-misc.git
-[submodule "bundle/vim-slamhound"]
-	path = bundle/vim-slamhound
-	url = git://github.com/guns/vim-slamhound.git
 [submodule "bundle/vim-exchange"]
 	path = bundle/vim-exchange
 	url = git://github.com/tommcdo/vim-exchange.git

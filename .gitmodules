@@ -37,9 +37,6 @@
 [submodule "bundle/groovy-vim"]
 	path = bundle/groovy-vim
 	url = git://github.com/vim-scripts/groovy.vim--Ruley.git
-[submodule "bundle/zoomwin"]
-	path = bundle/zoomwin
-	url = git://github.com/vim-scripts/ZoomWin.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = git://github.com/plasticboy/vim-markdown
@@ -58,15 +55,9 @@
 [submodule "bundle/CamelCaseMotion"]
 	path = bundle/CamelCaseMotion
 	url = git://github.com/bkad/CamelCaseMotion.git
-[submodule "bundle/tagbar"]
-	path = bundle/tagbar
-	url = git://github.com/majutsushi/tagbar
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
 	url = git://github.com/narkisr/snipmate-snippets.git
-[submodule "bundle/vim-align"]
-	path = bundle/vim-align
-	url = git://github.com/tsaleh/vim-align.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
@@ -91,9 +82,6 @@
 [submodule "bundle/paredit"]
 	path = bundle/paredit
 	url = git://github.com/vim-scripts/paredit.vim.git
-[submodule "bundle/auto-tag"]
-	path = bundle/auto-tag
-	url = git://github.com/vim-scripts/AutoTag.git
 [submodule "bundle/vim-golang"]
 	path = bundle/vim-golang
 	url = git://github.com/jnwhiteh/vim-golang.git
@@ -133,9 +121,6 @@
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
 	url = git://github.com/mattn/emmet-vim.git
-[submodule "bundle/mustache"]
-	path = bundle/mustache
-	url = git://github.com/juvenn/mustache.vim.git
 [submodule "bundle/vim-misc"]
 	path = bundle/vim-misc
 	url = git://github.com/xolox/vim-misc.git
@@ -145,9 +130,6 @@
 [submodule "bundle/vim-exchange"]
 	path = bundle/vim-exchange
 	url = git://github.com/tommcdo/vim-exchange.git
-[submodule "bundle/stringify.git"]
-	path = bundle/stringify.git
-	url = git://github.com/29decibel/vim-stringify.git
 [submodule "bundle/vim-chef"]
 	path = bundle/vim-chef
 	url = git://github.com/narkisr/vim-chef.git

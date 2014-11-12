@@ -130,3 +130,6 @@
 [submodule "bundle/vim-chef-detect"]
 	path = bundle/vim-chef-detect
 	url = git://github.com/narkisr/vim-chef-detect.git
+[submodule "/home/ronen/.vim/bundle/tmux-complete.vim"]
+	path = /home/ronen/.vim/bundle/tmux-complete.vim
+	url = git://github.com/wellle/tmux-complete.vim.git

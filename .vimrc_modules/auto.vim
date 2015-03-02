@@ -18,11 +18,9 @@ autocmd Filetype go command! Fmt call Goformat()
 autocmd! bufwritepost .vimrc source %
 
 " ruby
-autocmd FileType ruby,eruby set filetype=ruby.eruby
+autocmd BufRead,BufNewFile *.ruby setlocal filetype=ruby
+autocmd BufRead,BufNewFile *.erb setlocal filetype=eruby
 
-".chef
-" actionscript 
-autocmd BufRead *.as set filetype=actionscript
 
 " chef, this should be last so it will win other ruby detection files
 so ~/.vim/bundle/vim-chef-detect/ftdetect/chef.vim

@@ -135,4 +135,4 @@
 	url = git://github.com/wellle/tmux-complete.vim.git
 [submodule "bundle/unite"]
 	path = bundle/unite
-	url = git@github.com:Shougo/unite.vim.git
+	url = git://github.com/Shougo/unite.vim.git

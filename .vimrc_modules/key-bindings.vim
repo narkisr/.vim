@@ -38,6 +38,9 @@ nnoremap <Leader>gD :diffoff!<cr><c-w>h:bd<cr>
 nnoremap <Leader>gp :Git push origin master<cr>
 
 
+" unite mappings
+nnoremap <Leader>lj :Unite buffer<cr>
+
 " zencoding expansion see http://tinyurl.com/a4bn8bg   
 let g:user_emmet_leader_key = '<C-Z>'
 

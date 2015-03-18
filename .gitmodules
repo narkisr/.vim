@@ -136,3 +136,6 @@
 [submodule "bundle/unite"]
 	path = bundle/unite
 	url = git://github.com/Shougo/unite.vim.git
+[submodule "bundle/vim-multiple-cursors"]
+	path = bundle/vim-multiple-cursors
+	url = git://github.com/terryma/vim-multiple-cursors.git

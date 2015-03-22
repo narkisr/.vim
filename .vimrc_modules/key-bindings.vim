@@ -2,7 +2,7 @@
 nnoremap ; :
 let mapleader=","
 nmap <silent> <C-D> :NERDTreeToggle<CR>
-nmap <silent> <C-T> :CommandT<CR>
+nmap <silent> <C-T> :CtrlP<CR>
 set pastetoggle=<F2>
 nmap <C-f> :call system("firefox ".getreg("\""))<CR>
 

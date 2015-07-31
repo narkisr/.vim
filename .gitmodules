@@ -137,5 +137,5 @@
 	path = bundle/vim-multiple-cursors
 	url = git://github.com/terryma/vim-multiple-cursors.git
 [submodule "/home/ronen/.vim/bundle/vim-easymotion"]
-	path = /home/ronen/.vim/bundle/vim-easymotion
+	path = bundle/vim-easymotion
 	url = git://github.com/easymotion/vim-easymotion

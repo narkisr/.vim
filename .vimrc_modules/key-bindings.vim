@@ -17,6 +17,7 @@ map <leader>f :Ack<Space>
 imap jj <Esc>
 " enabling replacing current selected text 
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+vnoremap <C-R> "hy:,$s/<C-r>h//gc<left><left><left>
 
 " easy split navigation http://tinyurl.com/6pj4m4z  
 noremap <C-h> <C-w>h

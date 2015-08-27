@@ -136,3 +136,6 @@
 [submodule "/home/ronen/.vim/bundle/vim-easymotion"]
 	path = bundle/vim-easymotion
 	url = git://github.com/easymotion/vim-easymotion
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = git://github.com/fatih/vim-go.git

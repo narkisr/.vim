@@ -139,3 +139,6 @@
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
 	url = git://github.com/fatih/vim-go.git
+[submodule "/home/ronen/.vim/bundle/elm-vim"]
+	path = /home/ronen/.vim/bundle/elm-vim
+	url = git://github.com/elmcast/elm-vim.git

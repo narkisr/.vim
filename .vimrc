@@ -4,7 +4,7 @@ filetype plugin indent on
 call pathogen#infect()
 call pathogen#helptags()
 
-for module in ['camel_case','coloring','gvim','folding','key-bindings','backup','auto','syntastic','vimclojure','html_indent']
+for module in ['camel_case','coloring','gvim','folding','key-bindings','backup','auto','syntastic','vimclojure','html_indent','elm']
   exec 'so' '~/.vim/.vimrc_modules/'.module.'.vim'
 endfor
  

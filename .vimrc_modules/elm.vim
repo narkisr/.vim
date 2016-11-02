@@ -8,4 +8,4 @@ au FileType elm nmap <leader>w <Plug>(elm-browse-docs)
 
 autocmd BufWritePost *.elm :ElmMake
 
-let g:elm_make_output_file = "elm.js"
+let g:elm_make_output_file = "main.js"

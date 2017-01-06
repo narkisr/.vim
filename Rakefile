@@ -10,7 +10,9 @@ Rake::PackageTask.new('vim', VERSION) do |p|
 end
 
 
-task :gh_release => [:package] do
-  %{mkdir release && mv pkg/vim-#{VERSION}.tar.gz release/vim-#{VERSION}.tar}
-  %{gh-release create narkisr/.vim VERSION}
+directory 'release' => ['package']
+
+file 'release' do
+    cp "pkg/vim-#{VERSION}.tgz", "release/vim-#{VERSION}.tar"
+    sh "gh-release create narkisr/.vim #{VERSION}"
 end

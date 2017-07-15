@@ -4,6 +4,23 @@ A highly tested and fine tuned VIM configuration.
 
 [![Build Status](https://travis-ci.org/narkisr/.vim.png)](https://travis-ci.org/narkisr/.vim)
 
+
+# Build
+
+```bash
+# make sure to have https://github.com/progrium/gh-release
+$ gh-release
+Usage: gh-release [-v] subcommand
+
+Subcommands:
+  create <reponame> <version> [branch] [name]
+  destroy <reponame> <version>
+  checksums <algorithm>
+
+$ rake release
+```
+
+
 # Copyright and license
 
 Copyright [2014] [Ronen Narkis]

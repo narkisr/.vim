@@ -115,9 +115,6 @@
 [submodule "bundle/vim-exchange"]
 	path = bundle/vim-exchange
 	url = git://github.com/tommcdo/vim-exchange.git
-[submodule "bundle/vim-chef"]
-	path = bundle/vim-chef
-	url = git://github.com/narkisr/vim-chef.git
 [submodule "bundle/ecliptic"]
 	path = bundle/ecliptic
 	url = git://github.com/richsoni/vim-ecliptic.git

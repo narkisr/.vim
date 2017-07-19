@@ -21,6 +21,3 @@ autocmd! bufwritepost .vimrc source %
 autocmd BufRead,BufNewFile *.ruby setlocal filetype=ruby
 autocmd BufRead,BufNewFile *.erb setlocal filetype=eruby
 
-
-" chef, this should be last so it will win other ruby detection files
-so ~/.vim/bundle/vim-chef-detect/ftdetect/chef.vim

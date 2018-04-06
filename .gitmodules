@@ -133,12 +133,6 @@
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
 	url = git://github.com/fatih/vim-go.git
-[submodule "bundle/vim-cljfmt"]
-	path = bundle/vim-cljfmt
-	url = git://github.com/venantius/vim-cljfmt.git
 [submodule "/home/ronen/.vim/bundle/elm-vim"]
 	path = bundle/elm-vim
 	url = git://github.com/elmcast/elm-vim.git
-[submodule "bundle/vim-hy"]
-	path = bundle/vim-hy
-	url = git://github.com/hylang/vim-hy.git

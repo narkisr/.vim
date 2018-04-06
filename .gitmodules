@@ -25,9 +25,6 @@
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git://github.com/msanders/snipmate.vim.git
-[submodule "bundle/vim-coffee-script"]
-	path = bundle/vim-coffee-script
-	url = git://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/groovy-vim"]
 	path = bundle/groovy-vim
 	url = git://github.com/vim-scripts/groovy.vim--Ruley.git

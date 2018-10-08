@@ -4,26 +4,20 @@ A highly tested and fine tuned VIM configuration.
 
 [![Build Status](https://travis-ci.org/narkisr/.vim.png)](https://travis-ci.org/narkisr/.vim)
 
-
-# Build
+# Usage
 
 ```bash
-# make sure to have https://github.com/progrium/gh-release
-$ gh-release
-Usage: gh-release [-v] subcommand
-
-Subcommands:
-  create <reponame> <version> [branch] [name]
-  destroy <reponame> <version>
-  checksums <algorithm>
-
-$ rake release
+$ git clone git@github.com:narkisr/.vim.git
+$ cd .vim
+$ git submodule update --init
+$ cd bundle/snipmate-snippets
+$ rake deploy_local
+$ ln -s  .vimrc ~/.vimrc
 ```
-
 
 # Copyright and license
 
-Copyright [2014] [Ronen Narkis]
+Copyright [2018] [Ronen Narkis]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
